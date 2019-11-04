@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { Component } from 'react';
 import {
     Collapse,
     Navbar,
@@ -13,12 +13,12 @@ import {
 class AppNavbar extends Component {
     state = {
         isOpen: false
-    }
+    };
     toggle = () => {
         this.setState({
             isOpen: !this.state.isOpen
         })
-    }
+    };
 
     render() {
         return (
